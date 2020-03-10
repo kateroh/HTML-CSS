@@ -1,0 +1,84 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+}
+
+.carousel-item {
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
+
+.carousel-item .items {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.carousel-inner .page1 {
+    background-image: url(images/cooking.jpg);
+    background-position: center center;
+}
+
+.carousel-inner .page2 {
+    background-image: url(images/makeup.jpg);
+    background-position: center top;
+}
+
+.carousel-inner .page3 {
+    background-image: url(images/guitar.jpg);
+    background-position: left center;
+}
+
+.carousel-item .items h5 {
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 18px;
+}
+
+.carousel-item .items p {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 48px;    
+}
+
+.carousel-item .items .btn-class {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: #5900e7;
+    padding: 10px 30px;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.container .item-box {
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+}
+
+.item-box .item-info {
+    padding: 10px;
+}
+
+.item-info h5 {
+    color: #4a4a4a;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.item-info span {
+    color: #4a4a4a;
+    font-size: 13px;
+    vertical-align: middle;
+    font-weight: bold;
+}
